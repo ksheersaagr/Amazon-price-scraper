@@ -31,7 +31,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('krunal@appliedcloudcomputing.com', 'acc12345')
+    server.login('your email-id', 'your password')
 
     subject = 'Price Fell Down!'
     body = 'Check the amazon link -> https://www.amazon.in/Philips-BG1025-15-Showerproof-Groomer/dp/B00TO7K08C'
@@ -39,8 +39,8 @@ def send_mail():
     msg = f"Subject:  {subject}\n\n{body}"
 
     server.sendmail(
-        'krunal@appliedcloudcomputing.com',
-        'spoison585@gmail.com',
+        'your email id ',
+        'receipients email id',
         msg
     )
     print("HEY! MAIL HAS BEEN SENT.")

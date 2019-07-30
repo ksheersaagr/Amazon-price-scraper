@@ -1,4 +1,4 @@
-# Amazon-price-scraper
+# Amazon-price-scraper-python
 Price scraper of a particular product on amazon.in
 
 
